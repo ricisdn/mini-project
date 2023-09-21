@@ -99,3 +99,11 @@
     font-size: 9px;
     text-align: center;
   }
+
+  .review .card{
+    width: 100%;
+  }
+  
+  .star{
+    margin-top: 10px;
+  }
