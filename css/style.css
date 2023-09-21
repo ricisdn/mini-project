@@ -90,3 +90,12 @@
     transition: all .4s ease-in;
   }
   
+  .card-title{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .card-text{
+    font-size: 9px;
+    text-align: center;
+  }
