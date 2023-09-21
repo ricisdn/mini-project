@@ -1,0 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand img{
+    width: 70px;
+}
+
+.navbar-nav a{
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+#navbarNavAltMarkup a:hover{
+  color: red;
+}
