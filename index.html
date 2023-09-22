@@ -440,72 +440,157 @@
     <!-- End Kontak -->
 
     <!-- Testimoni -->
-    <section id="review">
-      <div class="container">
-        <div class="row text-center mt-5">
-          <div class="col">
-            <h2 style="font-weight: bold; margin-top: 20px;">Testimoni</h2>
-          </div>
-        </div>
+    <section id="testimoni">
+      <div class="container mt-5">
         <div class="row">
-          <div class="col">
-            </div>
-          </div>
-          <div class="col">
-            <div class="container">
-              <div class="row">
-                <div class="col mb-5">
-                  <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
-                        <img src="img/orang3.jpeg" alt="images" width="50px" style="border-radius: 50%;">
-                      </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
-                        <img src="img/orang1.jpeg" alt="images" width="50px" style="border-radius: 50%;">
-                      </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">
-                        <img src="img/orang2.jpeg" alt="images" width="50px" style="border-radius: 50%;">
-                      </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="contact-tab1" data-bs-toggle="tab" data-bs-target="#home1" type="button" role="tab" aria-controls="contact" aria-selected="false">
-                        <img src="img/orang4.jpg" alt="images" width="50px" style="border-radius: 50%;">
-                      </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="home-tab3" data-bs-toggle="tab" data-bs-target="#home2" type="button" role="tab" aria-controls="contact" aria-selected="false">
-                        <img src="img/orang5.jpg" alt="images" width="50px" style="border-radius: 50%;">
-                      </button>
-                    </li>
-                  </ul>
-                  <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                      <p class="star text-center">⭐⭐⭐⭐⭐</p>
-                      <p class="reviewer text-center">Enak Bangetttt !!</p>
+          <div class="col text-center">
+            <h2 style="font-weight: bold; margin-top: 100px">Testimoni</h2>
+            <div
+              id="carouselTestimoniControls"
+              class="carousel slide mx-auto"
+              data-bs-ride="carousel"
+              style="width: 80%"
+            >
+              <!-- membuat carousel card -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mt-3">
+                        <img
+                          src="img/orang1.jpeg"
+                          class="card-img mx-auto mt-3"
+                          alt="Banner 1"
+                          style="height: 150px; border-radius: 50%"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Susanti</h5>
+                          <p class="card-text">
+                            ⭐⭐⭐⭐⭐ <br />
+                            Enak Bangettt !!
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                      <p class="star text-center">⭐⭐⭐⭐</p>
-                      <p class="reviewer text-center">Pelayanannya sangat ramah !!</p>
+  
+                    <div class="col-md-4">
+                      <div class="card mt-3">
+                        <img
+                          src="img/orang2.jpeg"
+                          class="card-img mx-auto mt-3"
+                          alt="Banner 2"
+                          style="height: 150px; border-radius: 50%"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Hasan</h5>
+                          <p class="card-text">
+                            ⭐⭐⭐⭐ <br />
+                            Pelayanannya sangat ramah
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                      <p class="star text-center">⭐⭐⭐⭐⭐</p>
-                      <p class="reviewer text-center">Sangat direkomendasikan makanannya !!</p>
+  
+                    <div class="col-md-4">
+                      <div class="card mt-3">
+                        <img
+                          src="img/orang3.jpeg"
+                          class="card-img mx-auto mt-3"
+                          alt="Banner 2"
+                          style="height: 150px; border-radius: 50%"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Surya</h5>
+                          <p class="card-text">
+                            ⭐⭐⭐⭐⭐ <br />
+                            sangat direkomendasikan !!
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="tab-pane fade" id="home1" role="tabpanel" aria-labelledby="home-tab1">
-                      <p class="star text-center">⭐⭐⭐⭐</p>
-                      <p class="reviewer text-center">Nyesel sih kalo gak beli, makanannya enak bangett !!</p>
+                  </div>
+                </div>
+  
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card mt-3">
+                        <img
+                          src="img/orang4.jpg"
+                          class="card-img mx-auto mt-3"
+                          alt="Banner 1"
+                          style="height: 150px; border-radius: 50%"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Antoni</h5>
+                          <p class="card-text">
+                            ⭐⭐⭐⭐ <br />
+                            kualitas makanan bintang 5 !!
+                          </p>
+                        </div>
+                      </div>
                     </div>
-                    <div class="tab-pane fade" id="home2" role="tabpanel" aria-labelledby="home-tab2">
-                      <p class="star text-center">⭐⭐⭐⭐</p>
-                      <p class="reviewer text-center">Makanannya enak banget, semoga bisa ditambah varian jenis makanannya</p>
+                    <div class="col-md-4">
+                      <div class="card mt-3">
+                        <img
+                          src="img/orang5.jpg"
+                          class="card-img mx-auto mt-3"
+                          alt="Banner 1"
+                          style="height: 150px; border-radius: 50%"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Antoni</h5>
+                          <p class="card-text">
+                            ⭐⭐⭐⭐ <br />
+                            Risolesnya enak banget !!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card mt-3">
+                        <img
+                          src="img/orang6.png"
+                          class="card-img mx-auto mt-3"
+                          alt="Banner 1"
+                          style="height: 150px; border-radius: 50%"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Arga</h5>
+                          <p class="card-text">
+                            ⭐⭐⭐⭐ <br />
+                            sekali beli auto ketagihan sih
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselTestimoniControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselTestimoniControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
           </div>
         </div>
