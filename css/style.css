@@ -1,162 +1,155 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
-.navbar-brand img{
-    width: 70px;
-}
-
-.navbar-nav a{
-    font-weight: bold;
-    margin-right: 40px;
+.navbar-brand img {
+  width: 70px;
 }
 
-#navbarNavAltMarkup a:hover{
+.navbar-nav a {
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+#navbarNavAltMarkup a:hover {
   color: red;
 }
 
 /* CSS Layanan */
-.layanan { 
-    width: 100%;
-    height: 313px;
-    border-radius: 5px;
-    padding: 40px;
-    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.055);
-  
-    transition: all .3s ease-in;
-  
-  }
-  
-  .circle-icon {
-    width: 70px;
-    height: 70px;
-    background-color: var(--pr-color);
-    border-radius: 50%;
-    
-    transition: all .1s ease-in;
-  }
-  
-  .layanan h3 {
-    color: #000;
-    font-size: 24px;
-  
-    transition: all .2s ease-in;
-  
-  }
-  
-  .layanan p {
-    color: #000;
-    font-size: 14px;
-  
-    transition: all .3s ease-in;
-  
-  }
-  
-  .layanan:hover { 
-    width: 100%;
-    height: 313px;
-    background: linear-gradient( var(--pr-color), #FFF9EA);
-    border-radius: 5px;
-    padding: 40px;
-  
-    transition: all .3s ease-in;
-  
-    
-  }
-  
-  .layanan:hover h3 {
-    color: #000;
-    font-size: 24px;
-  
-    transition: all .2s ease-in;
-  
-  }
-  
-  .layanan:hover p {
-    color: #000;
-    font-size: 14px;
-  
-    transition: all .3s ease-in;
-  
-  }
-  
-  .layanan:hover .circle-icon img {
-    transform: scale(2);
-  }
-  
-  .layanan:hover .circle-icon {
-    background-color: #000;
-    transform: scale(1.1);
-  
-    transition: all .4s ease-in;
-  }
-  
-  .card-title{
-    font-size: 14px;
-    font-weight: bold;
-  }
+.layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.055);
 
-  .card-text{
-    font-size: 9px;
-    text-align: center;
-  }
-
-  .review .card{
-    width: 100%;
-  }
-  
-  .star{
-    margin-top: 10px;
-  }
-
-  .carousel-inner .card img {
-    width: auto;
-    height: auto;
-  }
-  
-  .container {
-    max-width: 80%;
-  }
-  
-  .card-title,
-  .card-text {
-    text-align: center;
-  }
-  
-  .card {
-    height: 280px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Mengganti warna ikon "Previous" */
-  .carousel-control-prev-icon {
-    width: 20px;
-    background-color: rgba(180, 160, 110, 0.5);
-  }
-  
-  /* Mengganti warna ikon "Next" */
-  .carousel-control-next-icon {
-    width: 20px;
-    background-color: rgba(180, 160, 110, 0.5);
-  }
-  
-  /* Our Team */
-  .social-link {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #000000;
-    border-radius: 50%;
-    transition: all 0.3s;
-    font-size: 0.9rem;
+  transition: all 0.3s ease-in;
 }
 
-.social-link:hover, .social-link:focus {
-    background: aqua;
-    text-decoration: none;
-    color: #ff00e6;
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+
+  transition: all 0.1s ease-in;
 }
 
-  
+.layanan h3 {
+  color: #000;
+  font-size: 24px;
+
+  transition: all 0.2s ease-in;
+}
+
+.layanan p {
+  color: #000;
+  font-size: 14px;
+
+  transition: all 0.3s ease-in;
+}
+
+.layanan:hover {
+  width: 100%;
+  height: 313px;
+  background: linear-gradient(var(--pr-color), #fff9ea);
+  border-radius: 5px;
+  padding: 40px;
+
+  transition: all 0.3s ease-in;
+}
+
+.layanan:hover h3 {
+  color: #000;
+  font-size: 24px;
+
+  transition: all 0.2s ease-in;
+}
+
+.layanan:hover p {
+  color: #000;
+  font-size: 14px;
+
+  transition: all 0.3s ease-in;
+}
+
+.layanan:hover .circle-icon img {
+  transform: scale(2);
+}
+
+.layanan:hover .circle-icon {
+  background-color: #000;
+  transform: scale(1.1);
+
+  transition: all 0.4s ease-in;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 9px;
+  text-align: center;
+}
+
+.review .card {
+  width: 100%;
+}
+
+.star {
+  margin-top: 10px;
+}
+
+.carousel-inner .card img {
+  width: auto;
+  height: auto;
+}
+
+.container {
+  max-width: 80%;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.card {
+  height: 280px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Mengganti warna ikon "Previous" */
+.carousel-control-prev-icon {
+  width: 20px;
+  background-color: rgba(180, 160, 110, 0.5);
+}
+
+/* Mengganti warna ikon "Next" */
+.carousel-control-next-icon {
+  width: 20px;
+  background-color: rgba(180, 160, 110, 0.5);
+}
+
+/* Our Team */
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: aqua;
+  text-decoration: none;
+  color: #ff00e6;
+}
