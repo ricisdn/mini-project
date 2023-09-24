@@ -1,6 +1,10 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
 .navbar-brand img {
   width: 70px;
 }
