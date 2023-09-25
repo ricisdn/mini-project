@@ -6,6 +6,9 @@
     <link rel="icon" href="img/logo.png">
     <title>Mini-Project</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -418,7 +421,7 @@
     <!-- End FAQ -->
 
     <!-- Kontak -->
-    <section id="about">
+    <section id="kontak">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center mt-5">
@@ -430,7 +433,8 @@
           <div class="col">
             <form  action="https://formspree.io/f/maygpdwj"
           method="POST"
-          class="contact-form">
+          class="contact-form"
+          id="myForm">
             <div class="mb-3">
               <label for="name" class="form-label">Nama</label>
               <input type="name" class="form-control" autocomplete="off" placeholder="Masukkan Nama Anda" name="name">
@@ -446,7 +450,7 @@
               <textarea class="form-control" id="pesan" cols="10" rows="10" name="message"></textarea>
             </div>
             
-            <button class="btn form-control btn-submit" style="background-color: #cdb988; font-weight: bold;">Hubungi Kami</button>
+            <button class="btn form-control btn-submit" style="background-color: #cdb988; font-weight: bold;" id="kirim">Hubungi Kami</button>
           </form>
         </div>
       </div>
