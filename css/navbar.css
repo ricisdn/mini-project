@@ -1,0 +1,27 @@
+body {
+  background-color: #F0F0F0;
+}
+
+#navbarNavAltMarkup a {
+  color: #071952;
+}
+
+#navbarNavAltMarkup a:hover {
+  color: #515a1f;
+  background-color: #cdb988;
+  border-radius: 20%;
+}
+
+.navbar-nav a {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+@media (max-width: 820px) {
+  #navbarNavAltMarkup a:hover {
+    background-color: transparent;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */
