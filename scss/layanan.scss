@@ -1,0 +1,14 @@
+$bg-color: #cdb988;
+
+
+.layanan:hover {
+    $lebar: 100%;
+    $tinggi: 313px;
+    width: $lebar;
+    height: $tinggi;
+    background: $bg-color;
+    border-radius: 5px;
+    padding: 40px;
+  
+    transition: all 0.3s ease-in;
+}

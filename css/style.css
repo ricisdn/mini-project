@@ -44,16 +44,6 @@ body {
   transition: all 0.3s ease-in;
 }
 
-.layanan:hover {
-  width: 100%;
-  height: 313px;
-  background: linear-gradient(var(--pr-color), #fff9ea);
-  border-radius: 5px;
-  padding: 40px;
-
-  transition: all 0.3s ease-in;
-}
-
 .layanan:hover h3 {
   color: #000;
   font-size: 24px;
