@@ -1,14 +1,38 @@
+// penerapan variabel variabel global
 $bg-color: #cdb988;
+$borrad: 5px;
+$position: relative;
+$tinggi-hover: 100%;
+$lebar-before: 100%;
 
 
-.layanan:hover {
-    $lebar: 100%;
+
+.layanan {
+    position: $position;
+    $lebar: 100%; /* contoh penerapan variabel lokal */
     $tinggi: 313px;
     width: $lebar;
     height: $tinggi;
+    border-radius: $borrad;
+    overflow: hidden;
+  }
+  
+  .layanan::before {
+    content: "";
+    $posisi: absolute;
+    position: $posisi;
+    top: 0;
+    left: 0;
+    width: $lebar-before;
+    height: 0;
     background: $bg-color;
     border-radius: 5px;
-    padding: 40px;
+    transition: height 0.3s ease-in;
+    z-index: -1;
+    pointer-events: none;
+  }
   
-    transition: all 0.3s ease-in;
-}
+  .layanan:hover::before {
+    height: 100%;
+  }
+  
