@@ -1,0 +1,14 @@
+@function changecolor-accordionbutton($map, $key){
+    @return map-get($map, $key);
+}
+
+// melakukan deklarasi nilai variabel
+$warna:(
+    "primary": #cdb988,
+    "secondary": #FFE4D6,
+);
+// mulai styling
+.accordion-button:focus {
+    background-color: changecolor-accordionbutton($warna, "primary");
+    font-weight: bold;
+}
