@@ -10,12 +10,22 @@
     @return map-get($map, $key);
 }
 
+@function modal-font($map, $key){
+    @return map-get($map, $key);
+}
+
 
 // melakukan deklarasi nilai variabel
 $warna:(
     "primary": #cdb988,
     "secondary": #f4eddf,
 );
+
+$font : (
+    "font1" : "roboto",
+    "font2" : "montserrat"
+);
+
 // mulai styling
 .accordion-button:focus {
     background-color: changecolor-accordionbutton($warna, "primary");
@@ -36,4 +46,8 @@ $warna:(
 
 #pesan:focus{
     background-color: changecolor-container($warna, "secondary");
+}
+
+p.text-justify {
+    font-family: modal-font($font, "font2") !important;
 }
