@@ -8,4 +8,16 @@
   font-weight: normal;
 }
 
+#nama:focus {
+  background-color: #f4eddf;
+}
+
+#email:focus {
+  background-color: #f4eddf;
+}
+
+#pesan:focus {
+  background-color: #f4eddf;
+}
+
 /*# sourceMappingURL=fungsi.css.map */
