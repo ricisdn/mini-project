@@ -51,3 +51,6 @@ $font : (
 p.text-justify {
     font-family: modal-font($font, "font2") !important;
 }
+.card-img {
+    border: 1px solid #cdb988; /* Border tipis berwarna hitam */
+  }

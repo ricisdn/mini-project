@@ -24,4 +24,8 @@ p.text-justify {
   font-family: "montserrat" !important;
 }
 
+.card-img {
+  border: 1px solid #cdb988; /* Border tipis berwarna hitam */
+}
+
 /*# sourceMappingURL=fungsi.css.map */
