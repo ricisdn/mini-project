@@ -54,3 +54,6 @@ p.text-justify {
 .card-img {
     border: 1px solid #cdb988; /* Border tipis berwarna hitam */
   }
+#produk-item:hover{
+    transform: scale(1.05); /* Efek zoom (1.05 untuk 105% zoom) */
+}
