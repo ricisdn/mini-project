@@ -1,10 +1,5 @@
-$primary-color: #071952 !global;
-$primary-bg: #F0F0F0 !global;
-$hover-color: #515a1f;
-$hover-bg: #cdb988;
-$bold-font: bold;
-$font-size: 18px;
-
+@import "style";
+$primary-bg: #F0F0F0;
 
 body{
     background-color: $primary-bg;
@@ -22,7 +17,7 @@ body{
 
 .navbar-nav a {
     font-weight: $bold-font;
-    font-size: $font-size;
+    font-size: $ukuranJudul;
     margin-right: 40px;
 }
 
