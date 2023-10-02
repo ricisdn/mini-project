@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/layanan.scss"],"names":[],"mappings":"AASA;EACI,UAPO;AAQO;EAEd,OAFQ;EAGR,QAFS;EAGT,eAbK;EAcL;;;AAGF;EACE;EAEA,UADS;EAET;EACA;EACA,OApBW;EAqBX;EACA,YA1BO;EA2BP;EACA;EACA;EACA;;;AAGF;EACE","file":"layanan.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/layanan.scss","../scss/_style.scss"],"names":[],"mappings":"AAYA;EAHE;EAKE,UAXO;AAYO;EAEd,OAFQ;EAGR,QAFS;EAGT,eAjBK;EAkBL;;;AAGF;EACE;EAEA,UADS;EAET;EACA;EACA,OAxBW;EAyBX;EACA,YC/BS;EDgCT;EACA;EACA;EACA;;;AAGF;EACE","file":"layanan.css"}

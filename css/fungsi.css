@@ -32,4 +32,9 @@ p.text-justify {
   transform: scale(1.05); /* Efek zoom (1.05 untuk 105% zoom) */
 }
 
+.ukuran, .carousel-inner .card img {
+  width: auto;
+  height: auto;
+}
+
 /*# sourceMappingURL=fungsi.css.map */

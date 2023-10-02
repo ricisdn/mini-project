@@ -1,10 +1,5 @@
-@function changecolor-accordionbutton($map, $key){
-    @return map-get($map, $key);
-}
-@function changecolor-accordionitem($map, $key){
-    @return map-get($map, $key);
-}
-
+// Penerapan modul
+@import "style";
 
 @function changecolor-container($map, $key){
     @return map-get($map, $key);
@@ -13,7 +8,6 @@
 @function modal-font($map, $key){
     @return map-get($map, $key);
 }
-
 
 // melakukan deklarasi nilai variabel
 $warna:(
@@ -28,11 +22,11 @@ $font : (
 
 // mulai styling
 .accordion-button:focus {
-    background-color: changecolor-accordionbutton($warna, "primary");
+    background-color: $primary-bg;
     font-weight: bold;
 }
 .accordion-item {
-    background-color: changecolor-accordionitem($warna, "secondary" );
+    background-color: $secondary-bg;
     font-weight: normal;
 }
 
@@ -56,4 +50,14 @@ p.text-justify {
   }
 #produk-item:hover{
     transform: scale(1.05); /* Efek zoom (1.05 untuk 105% zoom) */
+}
+
+// Penerapan Extend
+.ukuran{
+    width: auto;
+    height: auto;
+}
+
+.carousel-inner .card img{
+    @extend .ukuran;
 }

@@ -87,10 +87,10 @@ body {
   margin-top: 10px;
 }
 
-.carousel-inner .card img {
+/* .carousel-inner .card img {
   width: auto;
   height: auto;
-}
+} */
 
 .container {
   max-width: 80%;
