@@ -1,4 +1,6 @@
 // Penerapan modul
+@use "modal";
+
 @import "style";
 
 @function changecolor-container($map, $key){

@@ -1,3 +1,11 @@
+.modal-header {
+  background-color: #cdb988;
+}
+
+.modal-body .container img {
+  border-radius: 10px;
+}
+
 .accordion-button:focus {
   background-color: #cdb988;
   font-weight: bold;
