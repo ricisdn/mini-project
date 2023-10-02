@@ -1,0 +1,13 @@
+@import "style"; 
+
+.card{
+    border-radius: $border-radius;
+    border: 2px solid $color;
+    padding: $padding;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimoni-card{
+    border: 2px solid $color;
+    border-radius: $border-radius;
+}
