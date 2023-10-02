@@ -6,6 +6,18 @@
   border-radius: 10px;
 }
 
+.row .col h2 {
+  font-weight: bold;
+  color: black;
+  background-color: #cdb988;
+}
+
+.row .col-12 h2 {
+  font-weight: bold;
+  color: black;
+  background-color: #cdb988;
+}
+
 .accordion-button:focus {
   background-color: #cdb988;
   font-weight: bold;
