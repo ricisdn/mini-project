@@ -17,3 +17,40 @@
 .font-large {
   font-size: 32px;
 }
+
+.team-member-Fahri {
+  transition: background-color 0.3s ease-in-out;
+}
+.team-member-Fahri:hover {
+  background-color: #efca86;
+}
+
+.team-member-Rici {
+  transition: background-color 0.3s ease-in-out;
+}
+.team-member-Rici:hover {
+  background-color: #efca86;
+}
+
+.team-member-Serly {
+  transition: background-color 0.3s ease-in-out;
+}
+.team-member-Serly:hover {
+  background-color: #efca86;
+}
+
+.team-member-Bariza {
+  transition: background-color 0.3s ease-in-out;
+}
+.team-member-Bariza:hover {
+  background-color: #efca86;
+}
+
+.team-member-Widhiani {
+  transition: background-color 0.3s ease-in-out;
+}
+.team-member-Widhiani:hover {
+  background-color: #efca86;
+}
+
+/*# sourceMappingURL=perulangan.css.map */
