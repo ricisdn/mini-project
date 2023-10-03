@@ -1,9 +1,6 @@
 // Penerapan modul
 @use "modal";
-@import "faq";
-
 @import "style";
-
 @function changecolor-container($map, $key){
     @return map-get($map, $key);
 }
@@ -24,14 +21,14 @@ $font : (
 );
 
 // mulai styling
-.accordion-button:focus {
-    background-color: $primary-bg;
-    font-weight: bold;
-}
-.accordion-item {
-    background-color: $secondary-bg;
-    font-weight: normal;
-}
+// .accordion-button:focus {
+//     background-color: $primary-bg;
+//     font-weight: bold;
+// }
+// .accordion-item {
+//     background-color: $secondary-bg;
+//     font-weight: normal;
+// }
 
 #nama:focus{
     background-color: changecolor-container($warna, "secondary");
