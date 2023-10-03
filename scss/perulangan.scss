@@ -25,6 +25,11 @@ $team-members: ("Fahri", "Rici", "Serly", "Bariza", "Widhiani");
       background-color: darken(wheat, 10%); 
     }
   }
+  @each $name in $team-members {
+    .team-member-#{$name} {
+      @include hover-color;
+    }
+  }
 // kondisi untuk warna text
 // @mixin pop-up($size, $is-success: false) {
 //     font-size: $size;
