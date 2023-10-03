@@ -18,7 +18,13 @@ $type:("small": 10px, "medium": 16px, "large": 32px);
 @import "style"; // ourteam
 
 $team-members: ("Fahri", "Rici", "Serly", "Bariza", "Widhiani");
-
+@mixin hover-color {
+    transition: background-color 0.3s ease-in-out;
+  
+    &:hover {
+      background-color: darken(wheat, 10%); 
+    }
+  }
 // kondisi untuk warna text
 // @mixin pop-up($size, $is-success: false) {
 //     font-size: $size;
