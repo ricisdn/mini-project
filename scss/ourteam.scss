@@ -1,6 +1,6 @@
 @import "style";
 
-$icon-color: aqua;
+$icon-color: #E0C097;
 
 @each $color-index in $icon-color {
     .social-link {
@@ -20,7 +20,7 @@ $icon-color: aqua;
     .social-link:focus {
         background: $color-index;
         text-decoration: none;
-        color: #ff00e6;
+        color: #4F0E0E;
         height: 40px;
     }
 }
