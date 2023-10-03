@@ -2,10 +2,6 @@ body {
   background-color: #F0F0F0;
 }
 
-#navbarNavAltMarkup a {
-  color: #071952;
-}
-
 #navbarNavAltMarkup a:hover {
   color: #515a1f;
   background-color: #cdb988;
@@ -23,5 +19,3 @@ body {
     background-color: transparent;
   }
 }
-
-/*# sourceMappingURL=navbar.css.map */
