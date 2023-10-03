@@ -1,3 +1,4 @@
+@import "style";
 $colors-bg: ("primary": #cdb988, "secondary": #f4eddf);
 
 @each $color-name, $color-bg in $colors-bg {
@@ -13,3 +14,21 @@ $type:("small": 10px, "medium": 16px, "large": 32px);
         font-size: $size;
     }
 }
+
+// kondisi untuk warna text
+// @mixin pop-up($size, $is-success: false) {
+//     font-size: $size;
+
+//     @if $is-success{
+//         color: red;
+//     }
+// }
+
+// .text-1 {
+//     @include pop-up(20px, $is-success: true);
+// }
+
+// .text-2 {
+//     @include pop-up(15px, $is-success: false);
+//     color: blue;
+// }
