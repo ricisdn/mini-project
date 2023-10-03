@@ -1,0 +1,132 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-brand img {
+  width: 70px;
+}
+
+/* CSS Layanan */
+.layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.055);
+
+  transition: all 0.3s ease-in;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+
+  transition: all 0.1s ease-in;
+}
+
+.layanan h3 {
+  color: #000;
+  font-size: 24px;
+
+  transition: all 0.2s ease-in;
+}
+
+.layanan p {
+  color: #000;
+  font-size: 14px;
+
+  transition: all 0.3s ease-in;
+}
+
+.layanan:hover h3 {
+  color: #000;
+  font-size: 24px;
+
+  transition: all 0.2s ease-in;
+}
+
+.layanan:hover p {
+  color: #000;
+  font-size: 14px;
+
+  transition: all 0.3s ease-in;
+}
+
+.layanan:hover .circle-icon img {
+  transform: scale(2);
+}
+
+.layanan:hover .circle-icon {
+  background-color: #000;
+  transform: scale(1.1);
+
+  transition: all 0.4s ease-in;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 9px;
+  text-align: center;
+}
+
+.review .card {
+  width: 100%;
+}
+
+.star {
+  margin-top: 10px;
+}
+
+/* .carousel-inner .card img {
+  width: auto;
+  height: auto;
+} */
+
+.container {
+  max-width: 80%;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.card {
+  height: 280px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Mengganti warna ikon "Previous" */
+.carousel-control-prev-icon {
+  width: 20px;
+  background-color: rgba(180, 160, 110, 0.5);
+}
+
+/* Mengganti warna ikon "Next" */
+.carousel-control-next-icon {
+  width: 20px;
+  background-color: rgba(180, 160, 110, 0.5);
+}
+
+/* Our Team */
+
+
+/* .text-1 {
+  font-size: 20px;
+  color: red;
+}
+
+.text-2 {
+  font-size: 20px;
+  color: blue;
+} */
