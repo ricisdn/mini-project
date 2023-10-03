@@ -1,0 +1,7 @@
+$colors-bg: ("primary": #cdb988, "secondary": #f4eddf);
+
+@each $color-name, $color-bg in $colors-bg {
+    .background-#{$color-name} {
+        background-color: $color-bg;
+    }
+}
