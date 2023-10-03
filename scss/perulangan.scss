@@ -5,3 +5,11 @@ $colors-bg: ("primary": #cdb988, "secondary": #f4eddf);
         background-color: $color-bg;
     }
 }
+
+$type:("small": 10px, "medium": 16px, "large": 32px);
+
+@each $name, $size in $type {
+    .font-#{$name} {
+        font-size: $size;
+    }
+}

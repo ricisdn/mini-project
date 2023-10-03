@@ -5,3 +5,15 @@
 .background-secondary {
   background-color: #f4eddf;
 }
+
+.font-small {
+  font-size: 10px;
+}
+
+.font-medium {
+  font-size: 16px;
+}
+
+.font-large {
+  font-size: 32px;
+}
