@@ -15,6 +15,14 @@ $type:("small": 10px, "medium": 16px, "large": 32px);
     }
 }
 
+$weight:("light": 200, "normal": 400, "semibold": 600, "bold": 800);
+
+@each $name, $fw in $weight {
+    .font-#{$name} {
+        font-weight: $fw;
+    }
+}
+
 @import "style"; // ourteam
 
 $team-members: ("Fahri", "Rici", "Serly", "Bariza", "Widhiani");
