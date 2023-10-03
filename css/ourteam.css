@@ -14,9 +14,9 @@
 
 .social-link:hover,
 .social-link:focus {
-  background: aqua;
+  background: #E0C097;
   text-decoration: none;
-  color: #ff00e6;
+  color: #4F0E0E;
   height: 40px;
 }
 
