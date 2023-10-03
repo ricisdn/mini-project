@@ -1,0 +1,9 @@
+.sosmed img {
+  width: 30px;
+  transition: width 0.3s ease;
+}
+.sosmed img:hover {
+  width: 50px;
+}
+
+/*# sourceMappingURL=footer.css.map */

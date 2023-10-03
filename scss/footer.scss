@@ -1,0 +1,15 @@
+$ukuran-ikon-awal: 30px;
+$ukuran-ikon-hover: 50px;
+
+.sosmed {
+  img {
+    width: $ukuran-ikon-awal; // Ukuran ikon awal
+    transition: width 0.3s ease; // Properti transisi untuk ukuran dengan durasi 0.3 detik dan efek ease
+
+    &:hover {
+      @if $ukuran-ikon-awal == 30px {
+        width: $ukuran-ikon-hover; // Ukuran ikon saat dihover (ubah sesuai kebutuhan)
+      }
+    }
+  }
+}
