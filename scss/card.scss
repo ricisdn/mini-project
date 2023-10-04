@@ -9,7 +9,15 @@
     }
   }
 
-.testimoni-card{
-    border: 2px solid $color;
-    border-radius: $border-radius;
-}
+  #produk {
+    .card {
+      border: 2px solid #cdb988; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      .card-img-top {
+        max-width: 90%; 
+      
+      margin: 20px auto; 
+      display: block;
+      }
+    }
+  }
