@@ -1,13 +1,16 @@
-.card {
-  border-radius: 10px;
+#testimoni .testimoni-card {
   border: 2px solid #cdb988;
-  padding: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
 
-.testimoni-card {
+#produk .card {
   border: 2px solid #cdb988;
-  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#produk .card .card-img-top {
+  max-width: 90%;
+  margin: 20px auto;
+  display: block;
 }
 
 /*# sourceMappingURL=card.css.map */
