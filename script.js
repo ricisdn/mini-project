@@ -41,4 +41,5 @@ $(document).ready(function() {
           // Ini menggunakan metode jQuery "animate" untuk menganimasikan scrolling halaman kembali ke posisi paling atas (0 piksel).
           // 'slow' adalah durasi animasi (dalam milidetik) untuk pergerakan kembali ke atas dengan kecepatan lambat.
         });
+        AOS.init();
       });
