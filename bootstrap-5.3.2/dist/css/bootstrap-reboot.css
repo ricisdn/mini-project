@@ -37,6 +37,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-cream: #cdb988;
+  --bs-cream2: #f4eddf;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -46,6 +47,7 @@
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-cream-rgb: 205, 185, 136;
+  --bs-cream2-rgb: 244, 237, 223;
   --bs-primary-text-emphasis: #052c65;
   --bs-secondary-text-emphasis: #2b2f32;
   --bs-success-text-emphasis: #0a3622;
