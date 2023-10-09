@@ -87,21 +87,6 @@ body {
   margin-top: 10px;
 }
 
-#btn-back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.5s;
-  cursor: pointer;
-}
-
-#btn-back-to-top.show {
-  opacity: 1;
-  pointer-events: auto;
-}
-
 .container {
   max-width: 80%;
 }
